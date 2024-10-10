@@ -200,6 +200,37 @@ nav h1 {
     margin: 48px auto 151px;
 }
 
-.video{
+.video {
     border-radius: 16px;
+}
+
+
+/* Footer styles */
+footer {
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+}
+
+.footer-container {
+    padding: 20px 0 20px 0;
+    max-width: 1140px;
+    margin: 80px auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-container h1 {
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.footer-container ul {
+    list-style: none;
+    display: flex;
+    gap: 24px;
 }

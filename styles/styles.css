@@ -20,6 +20,12 @@
     text-align: center;
 }
 
+.common-section-container {
+    max-width: 852px;
+    margin: 0 auto;
+
+}
+
 .common-section-title {
     color: rgb(13, 19, 33);
     font-size: 32px;
@@ -27,6 +33,16 @@
     line-height: 37px;
     letter-spacing: 0%;
     text-align: center;
+}
+
+.common-section-description {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
 }
 
 
@@ -158,12 +174,32 @@ nav h1 {
     text-align: left;
 }
 
-.card-title-and-description p{
+.card-title-and-description p {
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
     letter-spacing: 0%;
     text-align: left;
+    opacity: 0.7;
     margin-bottom: 32px;
+}
+
+
+/* My inspiration styles */
+.my-inspiration-section {
+    margin-top: 90px;
+}
+
+.video-container {
+    width: fit-content;
+    padding: 32px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    margin: 48px auto 151px;
+}
+
+.video{
+    border-radius: 16px;
 }

@@ -22,7 +22,7 @@
 
 .common-section-container {
     max-width: 852px;
-    margin: 0 auto;
+    margin: 0 auto 48px;
 
 }
 
@@ -204,6 +204,56 @@ nav h1 {
     border-radius: 16px;
 }
 
+/* My current Target styles */
+.current-target-card-container{
+    display: flex;
+    gap: 24px;
+
+}
+
+.card-html {
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+.card-css {
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+.card-js {
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.current-target-common-h1 {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.current-target-common-p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.current-target-common-a {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
 
 /* Footer styles */
 footer {

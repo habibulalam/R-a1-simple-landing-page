@@ -328,6 +328,7 @@ nav h1 {
 }
 
 .i-need-support-container h1 {
+    margin-bottom: 16px;
     color: rgb(255, 255, 255);
     font-size: 32px;
     font-weight: 700;
@@ -337,6 +338,7 @@ nav h1 {
 }
 
 .i-need-support-container p {
+    margin-bottom: 24px;
     color: rgb(255, 255, 255);
     font-size: 16px;
     font-weight: 400;

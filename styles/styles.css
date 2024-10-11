@@ -205,7 +205,7 @@ nav h1 {
 }
 
 /* My current Target styles */
-.current-target-card-container{
+.current-target-card-container {
     display: flex;
     gap: 24px;
 
@@ -216,11 +216,13 @@ nav h1 {
     border-radius: 16px;
     background: rgba(255, 76, 30, 0.05);
 }
+
 .card-css {
     padding: 40px;
     border-radius: 16px;
     background: rgba(0, 76, 232, 0.05);
 }
+
 .card-js {
     padding: 40px;
     border-radius: 16px;
@@ -253,6 +255,124 @@ nav h1 {
     letter-spacing: 0%;
     text-align: left;
     text-decoration-line: underline;
+}
+
+
+/* My Next target Styles */
+.my-next-target-section {
+    margin-top: 111px;
+    margin-bottom: 49px;
+}
+
+.my-next-target-common-card {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    padding: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    margin-bottom: 24px;
+}
+
+.my-next-target-common-h1 {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.my-next-target-common-p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+}
+
+.my-next-target-common-a {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
+/* I need support styles */
+.i-need-support-section {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+        url("../assets/handshake.jpg");
+
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+}
+
+.i-need-support-container {
+    padding: 64px 48px;
+    text-align: center;
+    width: 730px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.i-need-support-container h1 {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.i-need-support-container p {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.i-need-support-container input {
+    width: 540px;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+
+.i-need-support-container button {
+    padding: 17px 20px;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.input-and-btn{
+    display: flex;
+    gap: 16px;
+    align-items: center;
 }
 
 /* Footer styles */
